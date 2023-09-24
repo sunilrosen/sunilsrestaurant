@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(239, 224, 210);
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    background-color: rgb(235, 158, 158);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.logo h1{
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.description {
+    text-align: center;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-item {
+    box-shadow: 0px 0px 40px -15px #aaa
+}
+.menu-item img{
+    width:100%
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+    width: 150px;
+    height:50px;
+    border: 1px solid #333;
+    background: none;
+    border-radius: 3px;
+    transition: .5s all;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+/* .(class) calls class
+info in class can be edited, but nothing else
+margin - space between elements
+pixels, percent
+padding adds pixels WITHIN the box, margin adds outside
+justify-content: center - centers class based on width of container
+align-items: center - centers class based on height
+grid-template-columns: 1fr 1fr 1fr; - means there are 3 columns and 
+they are each taking up a fractional unit of the width
+margin-left auto - easy way to center items 
+box-shadow: 0px 0px 40px -15px #aaa - drop shadow, #aaa makes it slightly less strong
+
+
+*/
